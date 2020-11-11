@@ -1,0 +1,29 @@
+.map-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-top: 30px;
+  }
+  
+  .map-frame {
+    margin-top: 20vh;
+    border: 2px solid black;
+    height: 38vh;
+    width: 100%;
+  }
+  
+  #map {
+    height: 100%;
+  }
+
+  @media screen and (max-width: 415px) {
+    .map-frame {
+      margin-top: 100vh;
+      margin-left: -30.5vw;
+      border: 2px solid black;
+      height: 38vh;
+      width: 75vw;
+    }
+  }

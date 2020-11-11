@@ -1,0 +1,4 @@
+[{"nombre":"melanie", "apellido": "miguel","email":"melanie@gmail.com","localidad": "hendaia","pais":"Francia","direccion":"14 rue","codigoPostal":"64700","telefono":"123456789","usuario":"melcius","contrasena":"1234","admin":"0"},
+    {"nombre":"mikel", "apellido": "ape","email":"mikel@gmail.com","localidad": "irun","pais":"España","direccion":"paseo colon","codigoPostal":"21300","telefono":"123456789","usuario":"mikel","contrasena":"1234","admin":"0"},
+    {"nombre":"javi", "apellido": "san","email":"javi@gmail.com","localidad": "irun","pais":"España","direccion":"paseo colon","codigoPostal":"21300","telefono":"123456789","usuario":"javi","contrasena":"1234","admin":"1"},
+    {"nombre":"endika", "apellido": "her","email":"endika@gmail.com","localidad": "irun","pais":"España","direccion":"paseo colon","codigoPostal":"21300","telefono":"123456789","usuario":"endika","contrasena":"1234","admin":"0"}]

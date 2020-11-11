@@ -1,0 +1,123 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bree Serif', serif;
+}
+
+.pantalla{
+    height: 100vh;
+    width: 100vw;
+    background: antiquewhite;
+    border-top: 5vh solid rgb(36, 36, 36);
+    border-bottom: 5vh solid rgb(36, 36, 36);
+}
+
+#particles{
+    position: relative;
+    z-index: 0;
+    height: 100vh;
+    background-color: transparent;
+}
+
+.portada{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+
+}
+
+.portada span{
+    text-transform: uppercase;
+    display: block;
+}
+
+.nombre{
+    color: rgb(15, 15, 15);
+    width: 100vw;
+    font-size: 120px;
+    letter-spacing: 8px;
+    margin-bottom: 30px;
+    background: antiquewhite;
+    position: relative;
+    animation: text 2.5s 1;
+    text-shadow: 
+    1px 1px 1px #919191,
+    1px 2px 1px #919191,
+    1px 3px 1px #919191,
+    1px 4px 1px #919191,
+    1px 5px 1px #919191,
+    1px 6px 1px #919191,
+    1px 7px 1px #919191,
+    1px 8px 1px #919191,
+    1px 9px 1px #919191,
+    1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.4),
+
+    1px 25px 35px rgba(16,16,16,0.4),
+
+    1px 30px 60px rgba(16,16,16,0.4)
+
+}
+
+.button{
+    font-size: 22px;
+    font-style: bold;
+    color: rgb(15, 15, 15);
+    width: 8vw;
+    padding: 5px;
+    margin-left: 46vw;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 3px solid rgb(15, 15, 15);
+}
+
+a{
+    text-decoration: none;
+}
+
+.button:hover{
+    background-color: rgb(15, 15, 15);
+    color: antiquewhite;
+    transition: 1s;
+}
+
+
+
+@keyframes text{
+    0%{
+        color: rgb(15, 15, 15);
+        margin-bottom: -50px;
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: -50px;
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -50px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .nombre{
+        font-size: 50px;
+        letter-spacing: 4px;
+        margin-bottom: 30px;
+    }
+
+    .button{
+        font-size: 15px;
+        margin-left: 40%;
+        width: 20vw;
+        border: 2px solid rgb(15, 15, 15);
+    }
+}
+
+
+

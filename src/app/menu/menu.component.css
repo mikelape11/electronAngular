@@ -1,0 +1,217 @@
+
+.fondo{
+    position: absolute;
+    background: antiquewhite;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    border-top: 5vh solid rgb(36, 36, 36);
+    border-bottom: 5vh solid rgb(36, 36, 36);
+    z-index: -1;
+}
+.texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bree Serif', serif;
+    height: 86vh;
+    text-shadow: 
+    1px 1px 1px #919191,
+    1px 2px 1px #919191,
+    1px 3px 1px #919191,
+    1px 4px 1px #919191,
+    1px 5px 1px #919191,
+    1px 6px 1px #919191,
+    1px 7px 1px #919191,
+    1px 8px 1px #919191,
+    1px 9px 1px #919191,
+    1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.4),
+
+    1px 25px 35px rgba(16,16,16,0.4),
+
+    1px 30px 60px rgba(16,16,16,0.4)
+}
+
+.texto h2{
+    color: black;
+    letter-spacing: 3vh;
+    font-size: 7em;
+    line-height: 15vh;
+}
+
+.titulo{
+    position: absolute;
+    margin-top: 5vh;
+    width: 100vw;
+    text-align: center;
+    color: black;
+    
+    font-family: 'Bree Serif', serif;
+}
+
+.titulo h2{
+    font-size: 2.5em;
+}
+
+.menu{
+    font-family: 'Bree Serif', serif;
+    font-size: 3em;
+}
+
+.openDataEuskadi{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+    margin-left: 25vw;
+    height: 30vh;
+    width: 50vw;
+    color: rgba(0,0,0,0.3);
+    background: antiquewhite;
+    border-radius: 15px;
+    box-shadow: -15px -15px 15px rgb(250, 188, 107,0.6),
+                15px 15px 15px rgba(0,0,0,0.2);
+
+}
+
+.openDataEuskadi:hover{
+    color: rgba(0,0,0,0.9);
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: -15px -15px 15px rgb(250, 188, 107,1),
+                15px 15px 15px rgba(0,0,0,0.6);
+}
+
+.usuario{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 49vh;
+    margin-left: 25vw;
+    height: 30vh;
+    width: 23.5vw;
+    color: rgba(0,0,0,0.3);
+    background: antiquewhite;
+    border-radius: 15px;
+    box-shadow: -15px -15px 15px rgb(250, 188, 107,0.6),
+                15px 15px 15px rgba(0,0,0,0.2);
+
+}
+
+.usuario:hover{
+    color: rgba(0,0,0,0.9);
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: -15px -15px 15px rgb(250, 188, 107,1),
+                15px 15px 15px rgba(0,0,0,0.6);
+}
+
+.opciones{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 49vh;
+    margin-left: 51.5vw;
+    height: 30vh;
+    width: 23.5vw;
+    color: rgba(0,0,0,0.3);
+    background: antiquewhite;
+    border-radius: 15px;
+    box-shadow: -15px -15px 15px rgb(250, 188, 107,0.6),
+                15px 15px 15px rgba(0,0,0,0.2);
+
+}
+
+.opciones:hover{
+    color: rgba(0,0,0,0.9);
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: -15px -15px 15px rgb(250, 188, 107,1),
+                15px 15px 15px rgba(0,0,0,0.6);
+}
+
+.logout{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    top: 50px;
+    right: 80px;
+    height: 50px;
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(16, 16, 16);
+    cursor: pointer;
+}
+
+.logout:hover{
+    color:wheat;
+    background-color: rgb(16, 16, 16);
+}
+
+@media screen and (max-width: 415px) {
+
+    .texto h2{
+        font-size: 2.2em;
+        margin-left: 20px;
+    }
+
+    .titulo{
+        position: absolute;
+        margin-top: 10vh;
+        width: 100vw;
+        text-align: center;
+        color: black;
+        font-family: 'Bree Serif', serif;
+    
+    }
+
+    .titulo h2{
+        font-size: 2em;
+    }
+    .menu{
+        font-size: 1.5em;
+    }
+
+    .openDataEuskadi{
+        margin-top: 25vh;
+        margin-left: 15vw;
+        height: 10vh;
+        width: 70vw;
+    }
+
+    .usuario{
+        margin-top: 40vh;
+        margin-left: 15vw;
+        height: 10vh;
+        width: 70vw;
+    }
+
+    .opciones{
+        margin-top: 55vh;
+        margin-left: 15vw;
+        height: 10vh;
+        width: 70vw;
+    }
+
+    .logout{
+        margin-top: 65vh;
+        margin-right: 10vw;
+        height: 10vh;
+        width: 40vw;
+        padding-left: 0.6em;
+    }
+
+    .logout:hover{
+        margin-top: 65vh;
+        height: 10vh;
+        width: 40vw;
+    }
+}
